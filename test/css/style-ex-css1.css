@@ -1,0 +1,5 @@
+@import url('/education/test/css/imported.css');
+ul {
+  color: green;
+  text-decoration: underline;
+}

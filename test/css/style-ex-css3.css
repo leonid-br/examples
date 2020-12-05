@@ -1,0 +1,33 @@
+/* .wrapper {
+  width: 100%;
+  background-color: green;
+}
+body {
+  margin: 0;
+}
+.box {
+  width: 50%;
+  background-color: black;
+  color: wheat;
+} */
+
+a {
+  background: green;
+  color: white;
+  display: block;
+  height: 100px;
+  width: 100px;
+  margin: 20px;
+  padding: 20px;
+}
+
+.box {
+  background: green;
+  height: 100px;
+  width: 100px;
+  border: 5px solid #000;
+  margin: 50px;
+}
+.big-box {
+  margin-top: 70px;
+}

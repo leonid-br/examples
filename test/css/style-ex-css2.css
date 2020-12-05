@@ -1,0 +1,51 @@
+/** {
+  margin: 0;
+  padding: 0;
+} /*чаще для обнуления стилей*/
+
+.menu {
+  color: yellow;
+  background: gold;
+  font-size: 30px;
+}
+.menu .menu_item > a {
+  color: black;
+  text-decoration: none;
+}
+.menu .menu_item > a + ul {
+  background-color: black;
+}
+div + p {
+  background-color: black;
+  color: gold;
+}
+
+/* .active {
+  text-decoration: underline;
+} */
+.menu_item {
+  font-weight: bold;
+}
+P {
+  color: red;
+}
+/*#box {
+  text-decoration: underline;
+}*/
+
+/*.input_text {
+  color: red;
+}*/
+[type='text'] {
+  color: green;
+} /*применяет для всех type=text на странице*/
+
+[href="http://google.com"]
+{
+  color: red;
+  text-decoration: line-through;
+}
+
+div p {
+  color: gold;
+}
