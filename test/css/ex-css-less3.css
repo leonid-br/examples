@@ -1,0 +1,72 @@
+/* .link {
+  color: thistle;
+}
+.link:hover {
+  color: orange;
+}
+
+/* .social-links .link {
+  color: teal;
+}
+
+.social-links .link:hover,
+.social-links .link:focus {
+  color: orange;
+}
+
+.social-links .link:active {
+  color: red;
+} */
+/* 
+.social-links .link:visited {
+  color: green;
+} */
+.link {
+  color: teal;
+}
+
+.social-links .link:hover,
+.social-links .link:focus {
+  color: orange;
+}
+
+.social-links .link:active {
+  color: red;
+}
+
+.social-links .link:visited {
+  color: black;
+}
+
+/* ТАБЛИЦА  */
+.schedule-body > tr:hover {
+  background-color: black;
+  color: white;
+}
+.shedule-thead > tr > th:hover {
+  background-color: red;
+  color: green;
+}
+/* Оформление таблицы */
+.schedule {
+  border-collapse: collapse;
+}
+
+.schedule th,
+.schedule td {
+  padding: 5px;
+  border: 1px solid #212121;
+}
+
+.text {
+  background-color: green;
+  color: rgb(80, 15, 20, 0.5); /* (red,green,blue,прозрачность) */
+}
+p {
+  color: blue;
+  background-color: orange;
+}
+
+p {
+  color: teal;
+}
