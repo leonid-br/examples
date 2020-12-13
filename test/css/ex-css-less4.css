@@ -1,3 +1,8 @@
+:root {
+  --main-color: black;
+  --second-color: #ffffff;
+  --therd-color: #18a0fb;
+}
 /*text-decoration: none | underline | line-through | overline */
 .text > span {
   text-decoration: line-through;
@@ -88,6 +93,6 @@ pre::first-letter {
 }
 /* стиль выделения  */
 pre::selection {
-  color: black;
+  color: var(--main-color)
   background-color: red;
 }
