@@ -1,0 +1,93 @@
+/*text-decoration: none | underline | line-through | overline */
+.text > span {
+  text-decoration: line-through;
+}
+.link {
+  text-decoration: none;
+}
+/* text-transform: none | uppercase | lowercase | capitalize */
+.site-nav .link {
+  text-transform: uppercase;
+}
+/* text-align: left | right | center | justify */
+.post-title {
+  text-align: center;
+}
+
+.align-right {
+  text-align: right;
+  width: 500px;
+}
+.align-justify {
+  text-align: justify;
+  width: 800px;
+}
+/* text-indent: значение | проценты | inherit */
+.post-text {
+  text-indent: 100px;
+}
+/* line-height: множитель | значение | проценты | normal | inherit */
+.post-text1 {
+  font-size: 14px;
+  line-height: 2.5;
+}
+/* letter-spacing: значение | normal | inherit */
+.post-title {
+  letter-spacing: 10px;
+}
+/* word-spacing: значение | normal | inherit */
+.title {
+  word-spacing: 20px;
+}
+/* text-shadow: <смещение по x>, <смещение по y>, <радиус размытия>, <цвет> */
+.post-title {
+  color: white;
+  text-shadow: 2px 2px 4px black;
+}
+.link {
+  color: white;
+  text-shadow: 2px 2px 20px #ff0000, 5px 5px 5px black;
+}
+.text1 {
+  font-size: 20px;
+}
+/* font-weight: 100 | 200 | 300 | 400 | 500 | 600 | 700 | 800 | 900 */
+.text2 {
+  font-weight: 700;
+}
+h1 {
+  font-weight: 400;
+  font-size: 45px;
+  font-family: "Tangerine";
+}
+div {
+  border: 1px solid red;
+  width: 400px;
+  height: 100px;
+  padding: 40px;
+  text-align: center;
+}
+/* font-style: normal | italic | oblique | initial | inherit */
+.text3 {
+  font-style: italic;
+}
+.text4 {
+  font-family: "Courier New", Courier, monospace;
+}
+pre {
+  font-family: "Arial", "Helvetica", sans-serif;
+  color: #2a2a2a;
+  font-size: 16px;
+}
+/* стиль первого символа */
+
+pre::first-letter {
+  color: #f44336;
+  font-family: "tahoma";
+  font-size: 32px;
+}
+/* стиль выделения  */
+pre::selection {
+  color: black;
+  background-color: red;
+}
