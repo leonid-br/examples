@@ -1,0 +1,62 @@
+/* * {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  color: tomato;
+}
+header p {
+  color: plum;
+}
+h1 {
+  color: aquamarine;
+}
+li {
+  color: blue;
+}
+a {
+  color: green;
+}
+ul a {
+  color: red;
+}
+
+/* 
+селекторы:
+- универсальный
+- тег
+- класс
+- id
+- потомок
+- дочерний элимент (ребенок)
+- соседний 
+- атрибут 
+
+*/
+/* Псеводосостояния */
+a {
+  color: red;
+}
+a:visited {
+  color: black;
+}
+a:hover {
+  color: yellow;
+  background-color: black;
+}
+/* p:hover {
+  background-color: green;
+} */
+a:active {
+  background-color: pink;
+}
+a:focus {
+  color: magenta;
+}
+/* p::selection {
+  color: maroon;
+} */
+p::first-letter {
+  color: red;
+}
